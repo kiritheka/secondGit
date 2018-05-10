@@ -8,7 +8,7 @@ public class UserLogin {
 	public boolean login(String username, String password) {
 		if (username.isEmpty() || password.isEmpty()) {
 			throw new IllegalArgumentException("Username and password must not be null or empty");
-		} else if (username.equals("Bigadmin") && password.equals("password1234")) {
+		} else if (username.equals("yyyyyyy") && password.equals("password1234")) {
 			System.out.println("Successfully LoggedIn");
 			return true;
 		}
